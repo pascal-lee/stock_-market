@@ -1,0 +1,104 @@
+header{
+    height: 100px;
+    text-align: center;
+    background-color: gray;
+}
+
+.items{
+    flex: 30%;
+    background-color: skyblue;
+}
+.items ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+.items li {   
+    float: left;
+    border-right: 1px solid #bbb;
+ 
+}
+
+.items li:last-child {   
+    float: left;
+    border-right: none;
+ 
+}
+
+.items a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.items a:hover{
+    background-color: #111;
+}
+
+.content2-1{
+   float: left;
+   width:30%;
+   height: 700px;
+    background-color: skyblue;
+}
+.content2-2{
+    float: right;
+    height:700px;
+    width:70%;
+}
+.interest{
+    flex:30%;
+    background-color: pink;
+}
+.figure-interest{
+    flex:70%;
+    background-color:purple;
+}
+.fig1{
+    float:left;
+    width:33%;
+    background-color: aqua;
+}
+.fig2{
+    float:left;
+    width:33%;
+    background-color: green;
+}
+.fig3{
+    float:left;
+    width:34%;
+    background-color: blue;
+}
+
+.etf-fig{
+    flex:50%;
+    background-color:paleturquoise;
+}
+
+.etf-video{
+    flex:50%;
+    background-color: pink;
+}
+
+
+
+
+.world_map_us{
+    flex:25%;
+    background-color:paleturquoise;
+}
+
+.sp500_map_us{
+    flex:25%;
+    background-color:paleturquoise;
+}
+
+.etf_map_us{
+    flex:25%;
+    background-color:paleturquoise;
+}
+
