@@ -1,9 +1,36 @@
 header{
-    height: 100px;
+    height: 70px;
     text-align: center;
-    background-color: gray;
+    vertical-align: middle;
+    background-color: rgb(228, 212, 212);
 }
-
+#topMenu{
+    height: 30px;
+    width: 850px;
+}
+#topMneu ul li{
+    list-style: none;
+    color: burlywood;
+    background-color: rgb(24, 23, 23);
+    float:left;
+    line-height: 30px;
+    vertical-align: middle;
+    text-align: center;
+}
+#topMenu .menuLink{
+    text-decoration: none;
+    color: white;
+    display: blcok;
+    width:150px;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#TopMenu .menuLink:hover{
+    color:rend;
+    background-color: #4d4d4d;
+}
+/* 
 .items{
     flex: 30%;
     background-color: skyblue;
@@ -21,11 +48,6 @@ header{
  
 }
 
-.items li:last-child {   
-    float: left;
-    border-right: none;
- 
-}
 
 .items a{
     display: block;
@@ -37,7 +59,7 @@ header{
 
 .items a:hover{
     background-color: #111;
-}
+} */
 
 .content2-1{
    float: left;
