@@ -32,29 +32,7 @@ nav{width:80%;overflow:hidden;height:80px;background-color:#1b2035;margin:50px a
     height:700px;
     width:70%;
 }
-.interest{
-    flex:30%;
-    background-color: pink;
-}
-.figure-interest{
-    flex:70%;
-    background-color:purple;
-}
-.fig1{
-    float:left;
-    width:33%;
-    background-color: aqua;
-}
-.fig2{
-    float:left;
-    width:33%;
-    background-color: green;
-}
-.fig3{
-    float:left;
-    width:34%;
-    background-color: blue;
-}
+
 
 .etf-fig{
     flex:50%;
