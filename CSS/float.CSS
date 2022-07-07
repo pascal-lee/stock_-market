@@ -47,15 +47,22 @@ nav{width:80%;overflow:hidden;height:80px;background-color:#1b2035;margin:3px au
 
 
 
-.world_map_us{
-    flex:25%;
+.world_map{
+    flex:20%;
 }
 
 .sp500_map_us{
-    flex:25%;
+    flex:20%;
 }
 
 .etf_map_us{
-    flex:25%;
+    flex:20%;
 }
 
+.kospi{
+    flex:20%;
+}
+
+.kosdaq{
+    flex:20%;
+}
