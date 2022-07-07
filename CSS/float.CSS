@@ -4,62 +4,22 @@ header{
     vertical-align: middle;
     background-color: rgb(228, 212, 212);
 }
-#topMenu{
-    height: 30px;
-    width: 850px;
+
+*{padding:0;margin:0}
+ul,ol{list-style:none}
+a{text-decoration:none;color:#fff;font-size:15px}
+nav{width:80%;overflow:hidden;height:80px;background-color:#1b2035;margin:50px auto}
+
+#topMenu2{
+    text-align:center
 }
-#topMneu ul li{
-    list-style: none;
-    color: burlywood;
-    background-color: rgb(24, 23, 23);
+#topMenu2>ul{
+    display:inline-block
+}
+#topMenu2>ul li{
     float:left;
-    line-height: 30px;
-    vertical-align: middle;
-    text-align: center;
-}
-#topMenu .menuLink{
-    text-decoration: none;
-    color: white;
-    display: blcok;
-    width:150px;
-    font-size: 12px;
-    font-weight: bold;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-#TopMenu .menuLink:hover{
-    color:rend;
-    background-color: #4d4d4d;
-}
-/* 
-.items{
-    flex: 30%;
-    background-color: skyblue;
-}
-.items ul{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-}
-.items li {   
-    float: left;
-    border-right: 1px solid #bbb;
- 
-}
-
-
-.items a{
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-.items a:hover{
-    background-color: #111;
-} */
+    padding:0 100px;
+    line-height:80px}
 
 .content2-1{
    float: left;
