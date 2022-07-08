@@ -24,6 +24,10 @@ nav{width:80%;overflow:hidden;height:80px;background-color:#1b2035;margin:3px au
     padding:0 100px;
     line-height:80px}
 
+.content1{
+        float: left;
+        padding: 3px 15px;
+}
 .content2-1{
    float: left;
    width:30%;
